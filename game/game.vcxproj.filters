@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1a913106-0be0-4476-b0ce-2aa855072614}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{da904ee8-7f59-4a6c-b3ff-b91b6fb6d0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary">
+      <UniqueIdentifier>{df7aa532-3fdf-46a0-b3fc-8f5922e8d9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame">
+      <UniqueIdentifier>{0c798913-b7d2-4e26-8241-0f83266cd626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\game.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\gamecurs.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gameDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\help.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\loading.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ntutcsie.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\audio.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameView.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainFrm.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StdAfx.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\mygame.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\map.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\hero.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\monster.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\audio.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameDoc.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gamelib.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameView.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainFrm.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StdAfx.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\mygame.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\map.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\hero.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\monster.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\game.rc">
+      <Filter>MFC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\test.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\catmario_L.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\catmario_R.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\UI.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\block1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\block2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Github\game\RES\level1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Github\game\RES\level1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Github\game\RES\level2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Github\game\RES\level2_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\level1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\level1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\level2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\level2_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\continue.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\QuestBlock.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\LiftCount.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BlackBG.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\LifeCounter.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\QuestBlock2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\mob1_Left.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PipeLeft.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PipeTopLeft.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PipeTopRight.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PipeRight.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Block3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Flag.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FlagTop.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mob1_lef.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mob1_right.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\castle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\midFlag.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\AirBlock.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Air.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\About.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Instruction.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
